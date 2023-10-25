@@ -131,7 +131,7 @@ Partial Class Form1
         ' 
         ' Hitung
         ' 
-        Hitung.Location = New Point(279, 221)
+        Hitung.Location = New Point(279, 266)
         Hitung.Name = "Hitung"
         Hitung.Size = New Size(75, 23)
         Hitung.TabIndex = 10
@@ -141,7 +141,7 @@ Partial Class Form1
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(12, 263)
+        Label6.Location = New Point(19, 316)
         Label6.Name = "Label6"
         Label6.Size = New Size(32, 15)
         Label6.TabIndex = 11
@@ -150,7 +150,7 @@ Partial Class Form1
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(12, 304)
+        Label7.Location = New Point(15, 228)
         Label7.Name = "Label7"
         Label7.Size = New Size(36, 15)
         Label7.TabIndex = 12
@@ -159,7 +159,7 @@ Partial Class Form1
         ' Label8
         ' 
         Label8.AutoSize = True
-        Label8.Location = New Point(12, 345)
+        Label8.Location = New Point(12, 353)
         Label8.Name = "Label8"
         Label8.Size = New Size(63, 15)
         Label8.TabIndex = 13
@@ -167,21 +167,23 @@ Partial Class Form1
         ' 
         ' Total
         ' 
-        Total.Location = New Point(147, 260)
+        Total.Enabled = False
+        Total.Location = New Point(147, 308)
         Total.Name = "Total"
         Total.Size = New Size(207, 23)
         Total.TabIndex = 14
         ' 
         ' Bayar
         ' 
-        Bayar.Location = New Point(147, 296)
+        Bayar.Location = New Point(147, 220)
         Bayar.Name = "Bayar"
         Bayar.Size = New Size(207, 23)
         Bayar.TabIndex = 15
         ' 
         ' Kembalian
         ' 
-        Kembalian.Location = New Point(147, 337)
+        Kembalian.Enabled = False
+        Kembalian.Location = New Point(147, 345)
         Kembalian.Name = "Kembalian"
         Kembalian.Size = New Size(207, 23)
         Kembalian.TabIndex = 16

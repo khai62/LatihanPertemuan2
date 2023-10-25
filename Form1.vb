@@ -22,6 +22,7 @@
     End Sub
 
     Private Sub Clear_Click(sender As Object, e As EventArgs) Handles Clear.Click
+        NamaBarang.Text = ""
         TextB.Text = ""
         Jumlah.Text = ""
         Diskon.Text = ""
